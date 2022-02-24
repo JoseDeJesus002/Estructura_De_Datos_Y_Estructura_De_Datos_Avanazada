@@ -1,0 +1,152 @@
+#include<windows.h>
+#include<iostream>
+#include<conio.h>
+#include<stdlib.h>
+using namespace std;
+
+void gotoxy(int x,int y){  
+	HANDLE hcon;  
+	hcon = GetStdHandle(STD_OUTPUT_HANDLE);  
+	COORD dwPos;  
+	dwPos.X = x;  
+	dwPos.Y= y;  
+	SetConsoleCursorPosition(hcon,dwPos);  
+}  
+
+struct Usuario{
+	char nombre[30];
+	char clave[10];
+	int edad;
+};
+
+struct Nodo{
+	Usuario U;
+	Nodo *siguiente;	//estructura para definir un nodo
+};
+
+
+void menu();
+void Nuevo_Usuario(Usuario &);
+void insertarCola(Nodo *&,Nodo *&,Usuario); //prototipos de las funciones
+bool cola_vacia(Nodo *);
+void suprimirCola(Nodo *&,Nodo *&,Usuario &);
+
+
+int main(){
+	Nodo *frente = NULL;
+	Nodo *fin = NULL;
+	Usuario c;
+	
+	
+	for(int a=40;a<=75;a++)
+	{
+		system("color A");
+		
+		int d=115;
+		d=d-a;
+		gotoxy(40,6);cout<<"               BIENVEDO              ";
+		gotoxy(40,7);cout<<"/////////////////////////////////////";
+		gotoxy(a,8);cout<<"/";
+		gotoxy(d,9);cout<<"/";
+		gotoxy(40,10);cout<<"////////////////////////////////////";
+		
+		
+		Sleep(100);
+	}
+	menu();
+	return 0;
+	
+}
+
+
+
+void menu(){
+	Nodo *frente = NULL;
+	Nodo *fin = NULL;
+	Usuario u;
+	int opc,a ;
+	
+	a:
+		system("cls");
+	gotoxy(40,4);cout<<  " _____________________________________________________________________";
+	gotoxy(40,5);cout<< "| para agregar un nuevo usuario precione:                         | 1 |";              
+	gotoxy(40,6);cout<< "|_________________________________________________________________|___|";
+	gotoxy(40,7);cout<< "| para mostrar la lista de usuarios agregados precione:           | 2 |";
+	gotoxy(40,8);cout<< "|_________________________________________________________________|___|";
+	gotoxy(40,9);cout<< "| para salir precione:                                            | 3 |";
+	gotoxy(40,10);cout<<"|_________________________________________________________________|___|";
+	gotoxy(40,11);cout<<"|                                                                 |   |";
+	gotoxy(40,12);cout<<"|_________________________________________________________________|___|";gotoxy(108,11);cin>>opc;
+	switch(opc){
+		
+	case 1: system("cls");
+	cout<<"ingrse los datos del nuevo usuario: "<<endl;
+	
+	Nuevo_Usuario(u);
+	insertarCola(frente,fin,u); 
+	break; 
+	case 2: system("cls");
+	cout<<"mostrando los usuarios agregados: "<<endl;
+	while(frente != NULL){
+		suprimirCola(frente,fin,u);
+		cout<<"Nombre: "<<u.nombre<<endl;
+		cout<<"Clave: "<<u.clave<<endl;
+		cout<<"Edad: "<<u.edad<<endl;
+		cout<<"\n";
+		
+	}
+	system("pause");
+	case 3:
+		break;
+	}
+	if(opc!=3){
+		goto a;
+	}
+}
+
+
+
+void Nuevo_Usuario(Usuario &c){
+	fflush(stdin);
+	
+	cout<<"Nombre: "; cin.getline(c.nombre,30,'\n');//funcion para pedir los datos de los usuarios 
+	cout<<"Clave: "; cin.getline(c.clave,10,'\n');
+	cout<<"Edad: "; cin>>c.edad;
+	cout<<"\n";
+} 
+//funcion para agregar los datos de los clientes a la cola
+void insertarCola(Nodo *&frente,Nodo *&fin,Usuario c){
+	Nodo *nuevo_nodo = new Nodo();
+	
+	nuevo_nodo->U = c;
+	nuevo_nodo->siguiente = NULL;
+	//en esta estructura if se utiliza para saber si la cola esta vacia 
+	if(cola_vacia(frente)){
+		frente = nuevo_nodo;
+	}
+	else{
+		fin->siguiente = nuevo_nodo;
+	}
+	
+	fin = nuevo_nodo;
+}
+//funcion para determinar si la cola se encuentra vacia 
+bool cola_vacia(Nodo *frente){
+	return (frente == NULL)? true : false;
+}
+
+void suprimirCola(Nodo *&frente,Nodo *&fin,Usuario &c){
+	c = frente->U;
+	Nodo *aux = frente;    //funcion para eliminar los datos de la cola 
+	
+	if(frente == fin){
+		frente = NULL;
+		fin = NULL;
+	}
+	else{
+		frente = frente->siguiente;
+	}
+	delete aux;
+}
+
+

@@ -9,13 +9,22 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-	queue<char> s;
-	for (int i='A'; i <= 'Z'; i++)
-	s.push(i);
-while (! s.empty() )
+	int op;
+	queue<int> s;
+	
+	//for (int i=1; i <= 100; i++)
+	//s.push(h);
+while (op==0)
 	{
+		int h
+		switch(op){
+		case 1:
+		s.push(h);
+		break;
+		case 2:
 		cout << s.front() << " " ;
-		s.pop();
+		s.pop();	
+		}
 	}
 	
 	cout << endl;

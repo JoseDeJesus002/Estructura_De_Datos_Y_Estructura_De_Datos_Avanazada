@@ -13,10 +13,9 @@ int main()
 {
 	int opcion;
 	while(true){
-		cout<<"1 Ingreso de datos a la Cola"<<endl;
-		cout<<"2 Mostrar Datos de la cola"<<endl;
-		cout<<"3 Eliminar datos de la cola"<<endl;
-		cout<<"4 Buscar datos en la cola"<<endl;
+		cout<<"1 Registro de Ficha"<<endl;
+		cout<<"2 LLamada de registro"<<endl;
+		cout<<"3 Buscar Turno"<<endl;
 		cin>>opcion;
 		switch(opcion){
 		case 1:{
@@ -25,13 +24,10 @@ int main()
 		}
 		case 2:{
 				mostrar();
+				eliminar();
 				break;
 			}
 		case 3:{
-					eliminar();
-					break;
-				}
-		case 4:{
 						buscar();
 						break;
 					}
@@ -40,7 +36,7 @@ int main()
 }
 void ingreso(){
 	cola=new(datos);
-	cout<<"Ingrese dato a la cola"<<endl;
+	cout<<"Ingresa tu nombre: "<<endl;
 	cin>>cola->dato;
 	if(ultimo!=NULL){
 		ultimo->direccion_sig=cola;
@@ -68,6 +64,7 @@ void mostrar(){
 		cola=cola->direccion_sig;
 		
 	}
+	//eliminar();
 }
 void eliminar(){
 	if(primero!=NULL){

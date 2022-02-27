@@ -41,7 +41,6 @@ void gotoxy(int x,int y){
 	}    
 	
 	int desencolar( struct cola &q )
-		
 	{
 		int num ;
 		struct nodo *aux ;
@@ -53,6 +52,19 @@ void gotoxy(int x,int y){
 		
 		return num;
 	} 
+	
+	void muestraCola( struct cola q )
+	{
+		struct nodo *aux;
+		
+		aux = q.delante;
+		
+		while( aux != NULL )
+		{
+			cout<<"   "<< aux->nro ;
+			aux = aux->sgte;
+		}    
+	}
 	
 	void menu()
 	{
@@ -70,15 +82,17 @@ void gotoxy(int x,int y){
 		{
 			b:
 				system("cls");
-			gotoxy(40,4);cout<<  " _____________________________________________________________________";
-			gotoxy(40,5);cout<< "| REGISTRARSE PARA FICHA                                          | 1 |";              
-			gotoxy(40,6);cout<< "|_________________________________________________________________|___|";
-			gotoxy(40,7);cout<< "| ATENDER                                                         | 2 |";
-			gotoxy(40,8);cout<< "|_________________________________________________________________|___|";
-			gotoxy(40,9);cout<< "| SALIR                                                           | 3 |";
-			gotoxy(40,10);cout<<"|_________________________________________________________________|___|";
-			gotoxy(40,11);cout<<"| INGRESA LA OPCION A REALIZAR                                    |   |";
-			gotoxy(40,12);cout<<"|_________________________________________________________________|___|";gotoxy(108,11);cin>>op;
+			gotoxy(5,4);cout<<  " _____________________________________________________________________";
+			gotoxy(5,5);cout<< "| REGISTRARSE PARA FICHA                                          | 1 |";              
+			gotoxy(5,6);cout<< "|_________________________________________________________________|___|";
+			gotoxy(5,7);cout<< "| ATENDER                                                         | 2 |";
+			gotoxy(5,8);cout<< "|_________________________________________________________________|___|";
+			gotoxy(5,9);cout<< "| MOSTRAR FICHAS EN ESPERA                                        | 3 |";
+			gotoxy(5,10);cout<<"|_________________________________________________________________|___|";
+			gotoxy(5,11);cout<<"| SALIR                                                           | 4 |";
+			gotoxy(5,12);cout<<"|_________________________________________________________________|___|";
+			gotoxy(5,13);cout<<"| INGRESA LA OPCION A REALIZAR                                    |   |";
+			gotoxy(5,14);cout<<"|_________________________________________________________________|___|";gotoxy(73,13);cin>>op;
 			
 			switch(op)
 			{
@@ -92,13 +106,19 @@ void gotoxy(int x,int y){
 				encolar( q, dato );
 				cout<<"Espera a que te llamen";
 				break;
-				
 			case 2:
+				
 				x = desencolar( q );
-				cout<<"\n\n\t\tEl numero de ficha "<< x <<" a sido atendido\n\n";
+				cout<<"\n La ficha "<< x <<" fue atendido\n\n";
 				break;
 				
 			case 3:
+				cout << "\n\n Las fichas en espera son:\n\n";
+				if(q.delante!=NULL) muestraCola( q );
+				else   cout<<"\n\n\tCola vacia...!"<<endl;
+				break;
+				
+			case 4:
 				cout<<"Gracias por tu preferencia";
 				break;
 			}
@@ -107,7 +127,7 @@ void gotoxy(int x,int y){
 			system("pause");  
 			system("cls");
 			
-		}while(op!=3);
+		}while(op!=4);
 	}
 	
 	int main(){

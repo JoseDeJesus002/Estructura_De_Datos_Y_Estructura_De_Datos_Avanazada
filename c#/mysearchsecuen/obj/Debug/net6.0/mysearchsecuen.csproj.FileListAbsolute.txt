@@ -1,0 +1,15 @@
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\mysearchsecuen\bin\Debug\net6.0\mysearchsecuen.exe
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\mysearchsecuen\bin\Debug\net6.0\mysearchsecuen.deps.json
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\mysearchsecuen\bin\Debug\net6.0\mysearchsecuen.runtimeconfig.json
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\mysearchsecuen\bin\Debug\net6.0\mysearchsecuen.dll
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\mysearchsecuen\bin\Debug\net6.0\mysearchsecuen.pdb
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\mysearchsecuen\obj\Debug\net6.0\mysearchsecuen.csproj.AssemblyReference.cache
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\mysearchsecuen\obj\Debug\net6.0\mysearchsecuen.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\mysearchsecuen\obj\Debug\net6.0\mysearchsecuen.AssemblyInfoInputs.cache
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\mysearchsecuen\obj\Debug\net6.0\mysearchsecuen.AssemblyInfo.cs
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\mysearchsecuen\obj\Debug\net6.0\mysearchsecuen.csproj.CoreCompileInputs.cache
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\mysearchsecuen\obj\Debug\net6.0\mysearchsecuen.dll
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\mysearchsecuen\obj\Debug\net6.0\refint\mysearchsecuen.dll
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\mysearchsecuen\obj\Debug\net6.0\mysearchsecuen.pdb
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\mysearchsecuen\obj\Debug\net6.0\mysearchsecuen.genruntimeconfig.cache
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\mysearchsecuen\obj\Debug\net6.0\ref\mysearchsecuen.dll

@@ -1,0 +1,15 @@
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Billionary\bin\Debug\net6.0\Billionary.exe
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Billionary\bin\Debug\net6.0\Billionary.deps.json
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Billionary\bin\Debug\net6.0\Billionary.runtimeconfig.json
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Billionary\bin\Debug\net6.0\Billionary.dll
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Billionary\bin\Debug\net6.0\Billionary.pdb
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Billionary\obj\Debug\net6.0\Billionary.csproj.AssemblyReference.cache
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Billionary\obj\Debug\net6.0\Billionary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Billionary\obj\Debug\net6.0\Billionary.AssemblyInfoInputs.cache
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Billionary\obj\Debug\net6.0\Billionary.AssemblyInfo.cs
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Billionary\obj\Debug\net6.0\Billionary.csproj.CoreCompileInputs.cache
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Billionary\obj\Debug\net6.0\Billionary.dll
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Billionary\obj\Debug\net6.0\refint\Billionary.dll
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Billionary\obj\Debug\net6.0\Billionary.pdb
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Billionary\obj\Debug\net6.0\Billionary.genruntimeconfig.cache
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Billionary\obj\Debug\net6.0\ref\Billionary.dll

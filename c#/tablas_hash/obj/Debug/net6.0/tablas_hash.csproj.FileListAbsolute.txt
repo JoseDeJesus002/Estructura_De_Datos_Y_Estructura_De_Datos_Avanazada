@@ -1,0 +1,15 @@
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\tablas_hash\bin\Debug\net6.0\tablas_hash.exe
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\tablas_hash\bin\Debug\net6.0\tablas_hash.deps.json
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\tablas_hash\bin\Debug\net6.0\tablas_hash.runtimeconfig.json
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\tablas_hash\bin\Debug\net6.0\tablas_hash.dll
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\tablas_hash\bin\Debug\net6.0\tablas_hash.pdb
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\tablas_hash\obj\Debug\net6.0\tablas_hash.csproj.AssemblyReference.cache
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\tablas_hash\obj\Debug\net6.0\tablas_hash.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\tablas_hash\obj\Debug\net6.0\tablas_hash.AssemblyInfoInputs.cache
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\tablas_hash\obj\Debug\net6.0\tablas_hash.AssemblyInfo.cs
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\tablas_hash\obj\Debug\net6.0\tablas_hash.csproj.CoreCompileInputs.cache
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\tablas_hash\obj\Debug\net6.0\tablas_hash.dll
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\tablas_hash\obj\Debug\net6.0\refint\tablas_hash.dll
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\tablas_hash\obj\Debug\net6.0\tablas_hash.pdb
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\tablas_hash\obj\Debug\net6.0\tablas_hash.genruntimeconfig.cache
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\tablas_hash\obj\Debug\net6.0\ref\tablas_hash.dll

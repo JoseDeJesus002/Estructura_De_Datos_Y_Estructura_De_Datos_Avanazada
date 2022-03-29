@@ -4,6 +4,9 @@ namespace tablas_hash
    public class tablas_hash
    {
     Hashtable table = new Hashtable();
+    public void datos(){
+        table.Add("ds","sdads");
+    }
     public void agregardatos(string n,string x){
         try
         {
@@ -21,7 +24,7 @@ namespace tablas_hash
         string cadena = Console.ReadLine();
         Console.WriteLine("El elemento encontrado es:");
         Console.WriteLine(table[cadena]); //imprime los datos que contenga la clave
-        //Console.ReadKey();
+        Console.ReadKey();
     }
    }
    public class menu //calse para el menu

@@ -6,9 +6,10 @@ void eliminar();
 void buscar();
 struct datos
 {
-	int dato;
-	datos *direccion_sig;
-}*primero,*cola,*ultimo=NULL;
+int dato;
+datos *direccion_sig;
+}
+*primero,*cola,*ultimo=NULL;
 int main()
 {
 	int opcion;

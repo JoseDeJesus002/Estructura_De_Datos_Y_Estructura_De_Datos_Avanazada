@@ -58,10 +58,14 @@ void menu(){
 					cout<<"\n";
 					system("pause");
 					break;
-			case 3: break;
+			case 3: 
+					cout<<"\nIngrese el caracter a agregar a la cola: ";
+					cin>>dato;
+				suprimirCola(frente,fin,dato);
+			break;
 		}
 		system("cls");		
-	}while(opc !=3);
+	}while(opc !=4);
 }
 
 

@@ -1,0 +1,15 @@
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\examen\bin\Debug\net6.0\examen.exe
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\examen\bin\Debug\net6.0\examen.deps.json
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\examen\bin\Debug\net6.0\examen.runtimeconfig.json
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\examen\bin\Debug\net6.0\examen.dll
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\examen\bin\Debug\net6.0\examen.pdb
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\examen\obj\Debug\net6.0\examen.csproj.AssemblyReference.cache
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\examen\obj\Debug\net6.0\examen.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\examen\obj\Debug\net6.0\examen.AssemblyInfoInputs.cache
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\examen\obj\Debug\net6.0\examen.AssemblyInfo.cs
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\examen\obj\Debug\net6.0\examen.csproj.CoreCompileInputs.cache
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\examen\obj\Debug\net6.0\examen.dll
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\examen\obj\Debug\net6.0\refint\examen.dll
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\examen\obj\Debug\net6.0\examen.pdb
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\examen\obj\Debug\net6.0\examen.genruntimeconfig.cache
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\examen\obj\Debug\net6.0\ref\examen.dll

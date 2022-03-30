@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
+﻿
 namespace Examen_binario
 {
     class program
@@ -12,6 +11,7 @@ namespace Examen_binario
             bool encontrado = false;
             public void buscar()
             {
+                ordenar();
                 Console.WriteLine("Favor de el numero del alumno: ");
                 numero = int.Parse(Console.ReadLine());
 
@@ -28,15 +28,20 @@ namespace Examen_binario
                         puntero = mitad + 1;
                 }
                 if (encontrado)
-                    Console.WriteLine("El alumno es: " + (mitad + 1) + "Calificacion");
+                {
+                    Console.WriteLine("El numero de alumno es: " + (mitad + 1));
+                    Console.WriteLine("la calificaion del alumno es: " + calif[numero - 1]);
+                }
                 else
+                {
                     Console.WriteLine("El alumno no se encuentra intentelo de nuevo");
-                Console.ReadKey();
+                    Console.ReadKey();
+                }
             }
             public void califAlta()
             {
-                    Console.Write("\n\nLa calificacion mas alta es: " + calif.Max());
-                    Console.ReadKey();
+                Console.Write("\n\nLa calificacion mas alta es: " + calif.Max());
+                Console.ReadKey();
             }
             public void ordenar()
             {
@@ -56,58 +61,57 @@ namespace Examen_binario
             public void mostrar()
             {
                 ordenar();
-                for (int i=0;i<calif.Length; i++)
+                for (int i = 0; i < num_Alum.Length; i++)
                 {
-                        Console.WriteLine("El numero de alumno es:" + num_Alum[i] + " , " + "La calificacion es: " + calif[i]);
+                    Console.WriteLine("El numero de alumno es:" + num_Alum[i] + " La calificacion es: " + calif[i]);
 
                 }
             }
-            class menu
-            {
+        }
+        class orden
+        {
 
-                public void menu_()
+            public void menu_()
+            {
+                int opc;
+                alumnos alum;
+                alum = new alumnos();
+                do
                 {
-                    int opc;
-                    alumnos alum;
-                    alum = new alumnos();
-                    do
+                    Console.WriteLine("\t-------Alumnos-----");
+                    Console.WriteLine("1. Buscar");
+                    Console.WriteLine("2. mostrar");
+                    Console.WriteLine("3. Calificacion Maxima");
+                    Console.WriteLine("4. Salir");
+                    Console.WriteLine("Ingresa la opcion a realizar: ");
+                    opc = Convert.ToInt32(Console.ReadLine());
+                    switch (opc)
                     {
-                        Console.WriteLine("1. Buscar");
-                        Console.WriteLine("2. mostrar");
-                        Console.WriteLine("3. Calificacion Maxima");
-                        Console.WriteLine("4. Salir");
-                        Console.WriteLine("Ingresa la opcion a realizar: ");
-                        opc = Convert.ToInt32(Console.ReadLine());
-                        switch (opc)
-                        {
-                            case 1:
-                                alum.buscar();
-                                break;
-                            case 2:
-                                alum.mostrar();
-                                break;
-                            case 3:
-                                alum.califAlta();
-                                break;
-                            default:
-                                Console.WriteLine("Opcion incorrecta intente de nuevo");
-                                break;
+                        case 1:
+                            alum.buscar();
+                            break;
+                        case 2:
+                            alum.califAlta();
+                            break;
+                        case 3:
+                            alum.mostrar();
+                            break;
+                        default:
+                            Console.WriteLine("Opcion incorrecta intente de nuevo");
+                            break;
 
-                        }
-                        Console.ReadKey();//para detener y poder ver los datos
-                        Console.Clear();//para borrar datos de la consola 
-                    } while (opc != 4);
-                }
+                    }
+                    Console.ReadKey();//para detener y poder ver los datos
+                    Console.Clear();//para borrar datos de la consola 
+                } while (opc != 4);
             }
+        }
+        static void Main(string[] args)
+        {
+            orden men;
+            men = new orden();
+            men.menu_();
 
-
-            static void Main(string[] args)
-            {
-                menu men;
-                men = new menu();
-                men.menu_();
-
-            }
         }
     }
 }

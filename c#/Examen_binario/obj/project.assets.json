@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documentos\\Code\\C++\\Estructuras-de-Datos\\c#\\Billionary\\Billionary.csproj",
-      "projectName": "Billionary",
-      "projectPath": "D:\\Documentos\\Code\\C++\\Estructuras-de-Datos\\c#\\Billionary\\Billionary.csproj",
+      "projectUniqueName": "D:\\Documentos\\Code\\C++\\Estructuras-de-Datos\\c#\\Examen_binario\\Examen_binario.csproj",
+      "projectName": "Examen_binario",
+      "projectPath": "D:\\Documentos\\Code\\C++\\Estructuras-de-Datos\\c#\\Examen_binario\\Examen_binario.csproj",
       "packagesPath": "C:\\Users\\jose5\\.nuget\\packages\\",
-      "outputPath": "D:\\Documentos\\Code\\C++\\Estructuras-de-Datos\\c#\\Billionary\\obj\\",
+      "outputPath": "D:\\Documentos\\Code\\C++\\Estructuras-de-Datos\\c#\\Examen_binario\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jose5\\AppData\\Roaming\\NuGet\\NuGet.Config"

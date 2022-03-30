@@ -1,0 +1,15 @@
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Examen_binario\bin\Debug\net6.0\Examen_binario.exe
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Examen_binario\bin\Debug\net6.0\Examen_binario.deps.json
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Examen_binario\bin\Debug\net6.0\Examen_binario.runtimeconfig.json
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Examen_binario\bin\Debug\net6.0\Examen_binario.dll
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Examen_binario\bin\Debug\net6.0\Examen_binario.pdb
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Examen_binario\obj\Debug\net6.0\Examen_binario.csproj.AssemblyReference.cache
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Examen_binario\obj\Debug\net6.0\Examen_binario.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Examen_binario\obj\Debug\net6.0\Examen_binario.AssemblyInfoInputs.cache
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Examen_binario\obj\Debug\net6.0\Examen_binario.AssemblyInfo.cs
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Examen_binario\obj\Debug\net6.0\Examen_binario.csproj.CoreCompileInputs.cache
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Examen_binario\obj\Debug\net6.0\Examen_binario.dll
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Examen_binario\obj\Debug\net6.0\refint\Examen_binario.dll
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Examen_binario\obj\Debug\net6.0\Examen_binario.pdb
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Examen_binario\obj\Debug\net6.0\Examen_binario.genruntimeconfig.cache
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\Examen_binario\obj\Debug\net6.0\ref\Examen_binario.dll

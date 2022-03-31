@@ -1,0 +1,93 @@
+using System;
+
+namespace code {
+   class cine {
+      public int Partition(int[] arr, int left, int right) {
+         int pivot; 
+         pivot = arr[left];
+         while (true) {
+            while (arr[left] < pivot) {
+               left++;
+            }    
+            while (arr[right] > pivot) {
+               right--;
+            }    
+            if (left < right) {
+               int temp = arr[right];
+               arr[right] = arr[left];
+               arr[left] = temp;
+            } else {
+               return right;
+            }
+         }
+
+      }
+      public void quickSort(int[] arr, int left, int right) {   
+         int pivot;   
+         if (left < right) {
+            pivot = Partition(arr, left, right);
+            if (pivot > 1) {
+               quickSort(arr, left, pivot - 1);
+            }
+            if (pivot + 1 < right) {
+               quickSort(arr, pivot + 1, right);
+            }
+         }
+      }
+        class orden
+        {
+
+            public void menu_()
+            {
+                int opc;
+                cine alum;
+                alum = new cine();
+                do
+                {
+                    Console.WriteLine("\t-------Alumnos-----");
+                    Console.WriteLine("1. Calificacion Maxima");
+                    Console.WriteLine("2. mostrar");
+                    Console.WriteLine("3. Buscar");
+                    Console.WriteLine("4. Salir");
+                    Console.WriteLine("Ingresa la opcion a realizar: ");
+                    opc = Convert.ToInt32(Console.ReadLine());
+                    switch (opc)
+                    {
+                        case 1:
+                            int[] arr = {67, 12, 95, 56, 85, 1, 100, 23, 60, 9}; 
+                            int n = 10, i;   
+         Console.WriteLine("Quick Sort");
+         Console.Write("Initial array is: ");   
+         for (i = 0; i < n; i++) {
+            Console.Write(arr[i] + " ");
+         }
+        
+         Console.Write("\nSorted Array is: ");   
+         for (i = 0; i < n; i++) {
+             alum.quickSort(arr,0,9);
+            Console.Write(arr[i] + " "); 
+         } 
+                            break;
+                        case 2:
+                            break;
+                        case 3:
+                            
+                            break;
+                        default:
+                            Console.WriteLine("Opcion incorrecta intente de nuevo");
+                            break;
+
+                    }
+                    Console.ReadKey();//para detener y poder ver los datos
+                    Console.Clear();//para borrar datos de la consola 
+                } while (opc != 4);
+            }
+        }
+
+      static void Main(string[] args) {
+        orden or;
+        or=new orden();
+        or.menu_();
+      }
+   }
+}

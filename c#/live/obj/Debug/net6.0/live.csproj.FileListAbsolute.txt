@@ -1,0 +1,15 @@
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\live\bin\Debug\net6.0\live.exe
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\live\bin\Debug\net6.0\live.deps.json
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\live\bin\Debug\net6.0\live.runtimeconfig.json
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\live\bin\Debug\net6.0\live.dll
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\live\bin\Debug\net6.0\live.pdb
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\live\obj\Debug\net6.0\live.csproj.AssemblyReference.cache
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\live\obj\Debug\net6.0\live.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\live\obj\Debug\net6.0\live.AssemblyInfoInputs.cache
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\live\obj\Debug\net6.0\live.AssemblyInfo.cs
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\live\obj\Debug\net6.0\live.csproj.CoreCompileInputs.cache
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\live\obj\Debug\net6.0\live.dll
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\live\obj\Debug\net6.0\refint\live.dll
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\live\obj\Debug\net6.0\live.pdb
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\live\obj\Debug\net6.0\live.genruntimeconfig.cache
+D:\Documentos\Code\C++\Estructuras-de-Datos\c#\live\obj\Debug\net6.0\ref\live.dll

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documentos\\Code\\C++\\Estructuras-de-Datos\\Estructura de Datos Avanzada\\Arbol-generico\\Arbol-generico.csproj": {}
+    "/Users/jose/Desktop/Estructuras-de-Datos/Estructura de Datos Avanzada/Arbol-generico/Arbol-generico.csproj": {}
   },
   "projects": {
-    "D:\\Documentos\\Code\\C++\\Estructuras-de-Datos\\Estructura de Datos Avanzada\\Arbol-generico\\Arbol-generico.csproj": {
+    "/Users/jose/Desktop/Estructuras-de-Datos/Estructura de Datos Avanzada/Arbol-generico/Arbol-generico.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documentos\\Code\\C++\\Estructuras-de-Datos\\Estructura de Datos Avanzada\\Arbol-generico\\Arbol-generico.csproj",
+        "projectUniqueName": "/Users/jose/Desktop/Estructuras-de-Datos/Estructura de Datos Avanzada/Arbol-generico/Arbol-generico.csproj",
         "projectName": "Arbol-generico",
-        "projectPath": "D:\\Documentos\\Code\\C++\\Estructuras-de-Datos\\Estructura de Datos Avanzada\\Arbol-generico\\Arbol-generico.csproj",
-        "packagesPath": "C:\\Users\\jose5\\.nuget\\packages\\",
-        "outputPath": "D:\\Documentos\\Code\\C++\\Estructuras-de-Datos\\Estructura de Datos Avanzada\\Arbol-generico\\obj\\",
+        "projectPath": "/Users/jose/Desktop/Estructuras-de-Datos/Estructura de Datos Avanzada/Arbol-generico/Arbol-generico.csproj",
+        "packagesPath": "/Users/jose/.nuget/packages/",
+        "outputPath": "/Users/jose/Desktop/Estructuras-de-Datos/Estructura de Datos Avanzada/Arbol-generico/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jose5\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/jose/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
         }
       }
     }

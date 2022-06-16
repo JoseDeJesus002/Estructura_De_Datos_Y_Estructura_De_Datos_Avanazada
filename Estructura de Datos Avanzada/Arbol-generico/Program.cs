@@ -134,21 +134,34 @@ namespace Arbol_generico
     }
         static void Main(string[] args)
         {
+            string x="",y="",g="",l="",r="",h="",k="";
             CArbol arbol= new CArbol();
-
-            CNodo raiz=arbol.Insertar("a",null);
-
-            arbol.Insertar("b", raiz);
-            arbol.Insertar("c", raiz);
-
-            CNodo n= arbol.Insertar("d",raiz);
-            arbol.Insertar("h",n);
-
-            n = arbol.Insertar("e",raiz);
-            arbol.Insertar("i",n);
-            n = arbol.Insertar("j", n);
-            arbol.Insertar("p",n);
-            arbol.Insertar("q",n); 
+            Console.WriteLine("Ingresa la marca de el automovil");
+            
+            Console.WriteLine("Ingresa el Automovil 1");
+            x=Console.ReadLine();
+            CNodo raiz=arbol.Insertar(x,null);
+            Console.WriteLine("Ingresa el Automovil 2");
+            y=Console.ReadLine();
+            arbol.Insertar(y, raiz);
+            Console.WriteLine("Ingresa el Automovil 3");
+            g=Console.ReadLine();
+            arbol.Insertar(g, raiz);
+            Console.WriteLine("Ingresa el Automovil 4");
+            l=Console.ReadLine();
+            CNodo n= arbol.Insertar(l,raiz);
+            Console.WriteLine("Ingresa el Automovil 5");
+            r=Console.ReadLine();
+            arbol.Insertar(r,n);
+            Console.WriteLine("Ingresa el Automovil 6");
+            h=Console.ReadLine();
+            n = arbol.Insertar(h,raiz);
+            Console.WriteLine("Ingresa el Automovil 7");
+            k=Console.ReadLine();
+            arbol.Insertar(k,n);
+            //n = arbol.Insertar("j", n);
+            //arbol.Insertar("p",n);
+            //arbol.Insertar("q",n); 
             arbol.Preo(raiz);
             Console.WriteLine("----------");
             arbol.postO(raiz);
